@@ -138,7 +138,7 @@ export default class App extends React.Component {
         <Image resizeMode='contain' source={require("./assets/white-wallet-rings.png")}></Image>
         <Text>Open up client/App.js to start working on your app!</Text>
         
-        <Text style={styles.title}>Login first</Text>
+        <Text style={styles.title}>Login first!</Text>
         <Button title="login()" 
           onPress={()=> this.login()} />
                 <Text style={styles.title}>Account Info:</Text>
